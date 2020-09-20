@@ -1,0 +1,19 @@
+---
+title: "day1"
+author: "Bruna Luz"
+date: "21/09/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+x=seq(1, 10, len=1)
+y=40*2 + rnorm(10,0,5)
+plot(x,y)
+```
+
